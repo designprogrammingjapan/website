@@ -1,4 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 html {
     font-family: sans-serif;
@@ -8,14 +9,16 @@ html {
 
 body {
     margin: 0
+    
+    font-feature-settings: "palt";
 }
 
 h1.project-name {
-    font-family: YuMincho,'游明朝','Times New Roman',serif;
-    font-weight: normal;
-    color: #333;
+    font-family: 'Noto Sans Japanese';
+    font-weight: 100;
+    color: #3b6786;
     font-feature-settings: "palt";
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 article,
@@ -512,9 +515,12 @@ th {
 body {
     padding: 0;
     margin: 0;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+/*     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	
+    font-family: 'Noto Sans Japanese';
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.8;
     color: #606c71
 }
 
