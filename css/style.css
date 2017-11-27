@@ -10,6 +10,14 @@ body {
     margin: 0
 }
 
+h1.project-name {
+    font-family: YuMincho,'游明朝','Times New Roman',serif;
+    font-weight: normal;
+    color: #333;
+    font-feature-settings: "palt";
+    font-size: 1.5rem;
+}
+
 article,
 aside,
 details,
@@ -571,8 +579,8 @@ a:hover {
 .page-header {
     color: #fff;
     text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #1557ff, #ff9957)
+    background-color: #3b6786;
+    background-image: linear-gradient(135deg, #fafafa, #eee)
 }
 
 @media screen and (min-width: 64em) {
@@ -684,7 +692,7 @@ a:hover {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957
+    color: #3b6786
 }
 
 .main-content p {
