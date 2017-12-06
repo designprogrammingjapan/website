@@ -77,6 +77,10 @@ dfn {
     font-style: italic
 }
 
+.small{
+	font-size: 80%;
+}
+
 h1 {
     font-size: 2em;
     margin: 0.67em 0
