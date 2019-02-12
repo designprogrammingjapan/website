@@ -802,10 +802,10 @@ a:hover {
 
 .main-content table {
     display: block;
-    width: 100%;
+    width: auto;
     overflow: auto;
     word-break: normal;
-    word-break: keep-all;
+    word-break: break-word;
     -webkit-overflow-scrolling: touch
 }
 
@@ -813,10 +813,16 @@ a:hover {
     font-weight: bold
 }
 
+.main-content th{
+    width:auto;
+    word-break: keep-all;
+}
+
 .main-content table th,
 .main-content table td {
     padding: 0.5rem 1rem;
-    border: 1px solid #e9ebec
+    border: 1px solid #e9ebec;
+    width: auto;
 }
 
 .main-content dl {
