@@ -15,7 +15,7 @@ body {
 
 h1.project-name {
     font-family: 'Noto Sans Japanese';
-    font-weight: 100;
+    font-weight: 300;
     color: #3b6786;
     font-feature-settings: "palt";
     font-size: 1.3rem;
